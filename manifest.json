@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+	"name": "智能识屏",
+	"version": "1.0.0",
+	"description": "联想智能识屏",
+	"icons":
+    {
+        "16": "211.png",
+        "48": "211.png",
+        "128": "211.png"
+    },
+	"background":
+    {
+		"page":"js/background.html"
+	},
+	"browser_action": 
+    {
+		"default_icon": "211.png",
+		"default_title": "智慧识屏",
+        "default_popup": "js/popup.html"
+	},
+    "content_scripts" : [{
+    	"matches":["http://*/*","https://*/*"],
+		"js":["js/jquery-1.11.3.min.js","content-script/SmartScreen.js"],
+		"css":["content-script/SmartScreen.css"],
+    	"run_at": "document_start",
+	    "all_frames": true
+	}]
+	
+}

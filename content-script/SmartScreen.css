@@ -1,0 +1,367 @@
+
+.displayInformation{
+    position: fixed;
+    width: 371px;
+    text-align: left;
+    background: white;
+    top: 40px;
+    left: 75vw;
+    z-index: 99999;
+    box-shadow:0px 0px 2px 0px rgba(0,0,0,0.3);
+    border-radius:4px;
+    overflow: hidden;
+    max-height: 90vh;	
+}
+.maintitle_lenovo{
+    margin: 7px 0 10px 0;
+}
+.Close_smartlenovo{
+    color:#377DFF;
+    display: inline-block;
+    float: right;
+    width: 19px;
+    height: 19px;
+    cursor:pointer;
+}
+.title_smartlenovo{
+    display: inline-block;
+    font-size: 10px;
+    color:rgba(51,51,51,1);
+    margin-left: 19px;
+
+}
+._Contain{
+    width: 100%;
+    margin-bottom: 50px;
+    overflow-y: scroll;
+	max-height: 80vh;	
+}
+/* 书籍卡片 */
+.BookRelated_lenovo,.film_list_lenovo,.custom_info_list,.BaiduMapCard{
+    border-radius:3px; 
+    width: 333px;
+    height: 125px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid#DDDDDD;
+    box-shadow:0px 0px 3px 0px rgba(0,0,0,0.1);
+    background:rgba(255,255,255,1);
+    font-family:PingFangSC-Regular;
+    position: relative;
+    cursor:pointer;
+    overflow: hidden;
+}
+/* 书籍图片 */
+.BookRelated_imgage{
+    width: 100%;
+}
+.BookRelated_imgage_news{
+    width: 100%;
+}
+/* 包裹图片 */
+.package_image{
+    width: 108px;
+    height: 108px;
+    margin: 8px 0px 0px 8px;
+    overflow: hidden;
+}
+/* 书籍名字 */
+.Movie_name{
+    color:#333333;
+    font-size: 16px;
+    position: absolute;
+    top: 11px;
+    left: 125px;
+    display: inline-block;
+    height:22px;
+    width:197px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    vertical-align:top;
+}
+/* 书籍作者 */
+.Film_author,.meituan_listauthor,.film_list_score,.film_list_category,.film_list_performer,.Average_consumption,.character_job{
+    font-size:12px;
+    color:rgba(102,102,102,1);
+    display: inline-block;
+    vertical-align:top;
+    position: absolute;
+    top: 56px;
+    left: 125px;
+    width: 180px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+/* 书籍介绍 */
+.Film_introduction,.meituan_introduction,.Players_Record_Ball{ 
+    position: absolute;
+    top: 83px;
+    left: 125px;
+    font-size:12px;
+    display: inline-block;
+    color:rgba(51,51,51,1);
+    width:197px;
+    height:34px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+}
+/* 电影资讯卡片 */
+.film_list_lenovo{
+    height: 140px;
+}
+/* 电影封面 */
+.film_list_imgage{
+    height: 122px;
+    width: 84px;
+    margin: 9px 0 0 9px;
+}
+/* 电影名字 */
+.film_list_name{
+    font-size:16px;
+    color:rgba(51,51,51,1);
+    position: absolute;
+    top: 10px;
+    left: 102px;
+}
+/* 电影评分 */
+.film_list_score{
+    top: 38px;
+    left: 102px;
+    width: 57px;
+    height: 17px;
+    color: #333;
+}
+/* 剧情类别 */
+.film_list_category,.film_list_performer{
+    top: 38px;
+    left: 183px;
+    width: 140px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    color: #333;
+}
+/* 电影主演 */
+.film_list_performer{
+    top: 73px;
+    left: 102px;
+    width: 220px;
+}
+/* 电影简介 */
+.film_list_in{
+    left: 102px;
+    top: 98px;
+    color: #999;
+}
+/* 人均消费 */
+.Average_consumption{
+    top: 58px;
+    left: 125px;
+}
+.meituan_listauthor{
+    left: 125px;
+    top: 36px;
+}
+.meituan_introduction{
+    left: 125px;
+}
+/* 音乐播放按钮 */
+.PlayMusic_btn{
+    background: #377DFF;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+    color: #fff;
+}
+/* 人物job */
+.character_job{
+    top: 36px;
+}
+/* 商品来源 */
+.Commodity_source{
+    top: 60px;
+}
+/* 景区介绍 */
+.Scenic_Spot{
+    top: 40px;
+    height: 66px;
+    -webkit-line-clamp:4;
+    overflow : hidden;
+}
+/* 球员俱乐部 */
+.Players_Club_Ball,.Players_Record_Ball{
+    top: 80px;
+    height: 14px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+/* 球员战绩 */
+.Players_Record_Ball{
+  top: 100px;
+}
+/* 百度地图卡片 */
+.BaiduMapCard{
+    height: 109px;
+}
+/* 百度地图cion */
+.BaiduMapimages{
+    display: inline-block;
+    width: 98px;
+    height: 88px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    overflow: hidden;
+}
+/* 地图名称 */
+.LocationName,.LocationAddressDetailed,.Addressico,.Addressico1,.Addressico2,.Addressico3,.Addressico6,.Addressico5{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    font-size: 24px;
+    width: 180px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+		line-height: 24px;
+}
+/* 地图详细地点 */
+.LocationAddressDetailed{
+    top: 60px;
+    font-size: 14px;
+    left: 43px;
+
+}
+.Addressico{
+    width: 25px;
+    height: 28px;
+    top: 55px;
+    left: 12px;
+}
+.Addressico3{
+    width: 25px;
+    height: 28px;
+    top: 47px;
+    left: 153px;
+}
+.Addressico1,.Addressico2{
+    width: 49px;
+    height: 1px;
+    top: 62px;
+    left: 96px;
+}
+.Addressico2{
+    left: 193px;
+}
+/* 航班公司 */
+.Airline_company,.Aviation_model,.ViewMore_flight,.flightDepAirport_feiyou,.flightArrAirport_feiyou,.flightDeptimePlanDate,.flightArrtimePlanDate{
+    position: absolute;
+    font-size: 16px;
+    color: #333;
+    font-family:PingFangSC-Regular;
+    top: 10px;
+    left: 15px;
+    display: inline-block;
+    vertical-align:top;
+}
+/* 航空型号 */
+.Aviation_model{
+    font-size: 12px;
+    color: #999;
+    top: 14px;
+    left: 88px;
+    border-left: 1px solid #999;
+    text-indent: 5px;
+}
+
+.ViewMore_flight{
+    border: #377DFF;
+    border-radius: 10px;
+    font-size: 10px;
+    border: 1px solid  #377DFF;
+    width: 60px;
+    top: 12px;
+    color:  #377DFF;
+    left: 258px;
+    text-align: center;
+}
+.flightDepAirport_feiyou{
+    font-size: 12px;
+    color:  #666;
+    top: 82px;
+    left: 16px;
+}
+.flightArrAirport_feiyou{
+    font-size: 12px;
+    color:  #666;
+    top: 82px;
+    left: 259px;
+}
+.flightDeptimePlanDate{
+    font-size: 29px;
+    color:  #333;
+    top: 41px;
+    left: 9px;
+}
+.flightArrtimePlanDate{
+    font-size: 29px;
+    color:  #333;
+    top: 41px;
+    left: 250px;
+}
+.vocabulary_split{
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 20px;
+    margin-top:10px;
+    border-radius:3px;
+    border: 1px #377DFF solid;
+    color: #377DFF;
+    font-size: 14px;
+    cursor:pointer;
+
+}
+.splitMainContent{
+    display: inline-block;
+    vertical-align:top;
+    padding:2px 10px 2px 10px;
+    margin: auto;
+}
+.train_list_model{
+    left: 55px;
+}
+.train_list_Addressico{
+    width: 82px;
+    height: 9px;
+    left: 124px;
+}
+.Addressico6,.Addressico5{
+    width: 16px;
+    height: 16px;
+    top: 82px;
+		overflow: inherit;
+		line-height: 24px;
+}
+.train_list_from{
+    left: 45px;
+}
+.train_list_destination{
+    left: 286px;
+}
+.Addressico5{
+    left: 23px;
+}
+.Addressico6{
+    left: 265px;
+}
